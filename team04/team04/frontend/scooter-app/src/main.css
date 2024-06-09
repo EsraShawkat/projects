@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --primary: #2C2C34;
+    --secondary: #C84C09;
+    --tertiary: #85CB33;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: var(--primary);
+    height: 100vh;
+}
+.disabled{
+    opacity: .5;
+    background-color: rgba(238, 238, 238, 0.46);
+}
