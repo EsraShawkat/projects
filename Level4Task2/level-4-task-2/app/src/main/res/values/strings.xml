@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Level4Task2</string>
+    <string name="overview">Overview</string>
+    <string name="search">Search for a movie by name</string>
+</resources>
