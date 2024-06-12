@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>330</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Retailer
+--
+-naam: String
+-betaalmethoden: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>330</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Item
+--
+-hoortBij: Retailer
+-soort: String
+-artikelnummer: int
+-kosten: double
+-gekocht: boolean
+-gekochtOp: LocalDate
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>360</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>hoort bij
+lt=&lt;-
+m1=1
+m2=0..n</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+</diagram>
